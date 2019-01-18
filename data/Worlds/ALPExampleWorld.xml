@@ -1,0 +1,25 @@
+<World>
+        <Object>
+                Ground
+                <BBoxShape>
+                        <Shape>Floor</Shape>
+                </BBoxShape>
+        </Object>
+        
+         <Object> oven
+		<Origin> 1.025 -0.655 0.642 </Origin>
+		<Orient>
+			1 0 0
+			0 1 0
+			0 0 1
+		</Orient>
+                <RefSize>0.08</RefSize>
+                <GfxShape>                
+                        <Shape> Cylinder
+                                <Color> 0.2 0.2 0.85 0.5</Color>      
+                                <Scale> 0.30 0.30 0.06 </Scale>
+                        </Shape> 
+                </GfxShape>
+        </Object>
+
+</World> 

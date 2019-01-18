@@ -1,0 +1,26 @@
+<Config>
+	<Packages>  KUKARobotModel CDSPlotRF  </Packages>
+    	<World> ALPExampleWorld  </World>
+	<Robot> KUKA
+        	<Name> KUKA </Name>
+ 		<RobotModule> CDSPlotRF
+			<Name> CDSPlotRF </Name>
+		</RobotModule>
+        	<ControlMode>   position    </ControlMode>
+        	<Args>                    </Args>
+
+        	<Origin>  5.0  5.0  0.0 </Origin>
+	        <Orient>  1.0  0.0  0.0 
+        	          0.0  1.0  0.0
+        	          0.0  0.0  1.0
+        	</Orient>            
+	</Robot>
+
+<Simulator>
+<Aspect>
+    <Object>
+        <RefSize>0.08</RefSize>
+    </Object>
+ </Aspect>
+</Simulator>
+</Config>
